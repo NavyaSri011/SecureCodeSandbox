@@ -1,0 +1,43 @@
+.input-container{
+
+    flex:1;
+}
+
+.input-container h3{
+
+    margin-bottom:12px;
+
+    color:var(--text-color);
+
+    font-size:20px;
+}
+
+.input-container textarea{
+
+    width:100%;
+
+    height:180px;
+
+    padding:15px;
+
+    resize:none;
+
+    border-radius:10px;
+
+    border:1px solid var(--border-color);
+
+    background:var(--card-color);
+
+    color:var(--text-color);
+
+    font-size:15px;
+
+    outline:none;
+
+    box-sizing:border-box;
+}
+
+.input-container textarea:focus{
+
+    border-color:var(--primary-color);
+}

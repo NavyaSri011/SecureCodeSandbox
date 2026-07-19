@@ -12,6 +12,24 @@ SUPPORTED_LANGUAGES = {
     "python": {
         "extension": "py",
         "command": "python",
-        "image": DOCKER_IMAGE
+        "image": "python:3.12-slim"
+    },
+
+    "c": {
+        "extension": "c",
+        "command": "gcc",
+        "image": "gcc:latest"
+    },
+
+    "cpp": {
+        "extension": "cpp",
+        "command": "g++",
+        "image": "gcc:latest"
+    },
+
+    "java": {
+        "extension": "java",
+        "command": "java",
+        "image": "eclipse-temurin:21"
     }
 }

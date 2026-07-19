@@ -1,0 +1,112 @@
+.toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:var(--card-color);
+
+    border:1px solid var(--border-color);
+
+    border-radius:10px;
+
+    padding:16px 20px;
+
+    margin:20px 0;
+}
+
+.language-section{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+}
+
+.language-section label{
+
+    font-size:16px;
+
+    font-weight:600;
+
+    color:var(--text-color);
+}
+
+.language-section select{
+
+    padding:10px 14px;
+
+    border:1px solid var(--border-color);
+
+    border-radius:8px;
+
+    background:var(--bg-color);
+
+    color:var(--text-color);
+
+    font-size:15px;
+
+    outline:none;
+
+    cursor:pointer;
+}
+
+.run-btn{
+
+    padding:10px 24px;
+
+    background:var(--primary-color);
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.2s;
+}
+
+.run-btn:hover{
+
+    background:var(--secondary-color);
+
+    transform:translateY(-1px);
+}
+
+.run-btn:active{
+
+    transform:scale(0.98);
+}
+
+.run-btn:disabled {
+
+    opacity: 0.7;
+
+    cursor: not-allowed;
+
+    transform: none;
+}
+
+.clear-btn {
+    background: #dc2626;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.clear-btn:hover {
+    background: #b91c1c;
+}
