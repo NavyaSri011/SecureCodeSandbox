@@ -219,6 +219,3 @@ Developed as a secure code execution sandbox project using React, FastAPI, and D
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
